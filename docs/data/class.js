@@ -2,8 +2,8 @@
 // Этот файл редактирует учитель.
 
 // Ссылка на веб-приложение Google Apps Script (см. google-sheet/НАСТРОЙКА.md).
-// Пока пусто — результаты сохраняются только на устройстве ребёнка.
-window.SHEET_URL = "";
+// Если пусто — результаты сохраняются только на устройстве ребёнка.
+window.SHEET_URL = "https://script.google.com/macros/s/AKfycbzYxVtTg8eHV6sWPsAYJ1Rrsf5n2iW6dMsREuQnRwkIl-q1TVG3PVRLp4pAOKJslQ0/exec";
 
 // Ученики. Каждый заходит по своей ссылке: https://<сайт>/?kid=<code>
 // level: 1 — буквы и звуки (4–6 лет), 2 — слова и фразы (7–10), 3 — тексты и мультики (11+)
