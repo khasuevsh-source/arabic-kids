@@ -21,6 +21,6 @@ window.HOMEWORK = [
   { id: "hw-letters-1", title: "Выучи буквы ا ب ت ث", type: "letters", letters: ["ا", "ب", "ت", "ث"], levels: [1, 2] },
   { id: "hw-animals-match", title: "Найди пару: животные", type: "match", source: "set:animals", levels: [1, 2] },
   { id: "hw-colors-quiz", title: "Выбери перевод: цвета", type: "quiz", source: "set:colors", levels: [1, 2, 3] },
-  { id: "hw-daisy-video", title: "Посмотри мультик «Дейзи и Попи»", type: "video", video: "daisy-poppy", levels: [2, 3] },
-  { id: "hw-daisy-quiz", title: "Слова из мультика «Дейзи и Попи»", type: "quiz", source: "video:daisy-poppy", levels: [3] },
+  { id: "hw-daisy-video", title: "Посмотри мультик «Дейзи и Поппи»", type: "video", video: "daisy-poppy", levels: [2, 3] },
+  { id: "hw-daisy-quiz", title: "Слова из мультика «Дейзи и Поппи»", type: "quiz", source: "video:daisy-poppy", levels: [3] },
 ];
