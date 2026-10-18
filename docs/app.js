@@ -167,6 +167,8 @@ function viewVideo(id, q) {
     <a class="back" href="#/videos">← Мультики</a>
     <h1>${esc(v.title)}</h1>
     <div class="player-wrap"><div id="yt"></div></div>
+    <p class="muted" style="font-size:13px;margin:6px 2px 0">Видео не запускается или YouTube просит войти? Попробуйте выключить VPN или
+      <a href="https://www.youtube.com/watch?v=${esc(v.yt)}" target="_blank" rel="noopener" style="color:var(--teal);font-weight:800">откройте мультик на YouTube</a>, а текст читайте здесь, во «Весь текст».</p>
     <div class="subs" id="subs"><div class="sub-ar" id="sub-ar"></div><div class="sub-ru" id="sub-ru"></div></div>
     <div class="controls">
       <div class="seg" id="mode">
