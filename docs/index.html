@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Учим арабский</title>
+  <meta name="theme-color" content="#0e9f8e">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@500;700&family=Nunito:wght@600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <a href="#/" class="brand">
+      <span class="brand-ar" dir="rtl">نَتَعَلَّمُ العَرَبِيَّة</span>
+      <span class="brand-ru">Учим арабский</span>
+    </a>
+    <span id="kid-badge" class="kid-badge"></span>
+  </header>
+  <main id="app"></main>
+  <nav class="tabs">
+    <a href="#/" data-tab="home"><span>🏠</span>Главная</a>
+    <a href="#/videos" data-tab="videos"><span>🎬</span>Мультики</a>
+    <a href="#/alphabet" data-tab="alphabet"><span>🔤</span>Буквы</a>
+    <a href="#/words" data-tab="words"><span>📚</span>Слова</a>
+    <a href="#/games" data-tab="games"><span>🎮</span>Игры</a>
+    <a href="#/homework" data-tab="homework"><span>📋</span>Домашка</a>
+  </nav>
+  <div id="sheet" class="sheet" hidden></div>
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="data/class.js"></script>
+  <script src="data/alphabet.js"></script>
+  <script src="data/words.js"></script>
+  <script src="data/videos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
